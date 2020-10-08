@@ -1,27 +1,32 @@
 $(document).ready(function() {
   $("form#form-group").submit(function(event) {
    event.preventDefault();
-   let number = []
-   number = parseInt($("input#inputNumber").val());
-   let array=[]
-   for (let index = 0; index <=number; index+=1){
-     array.push(number[index]);
-   } 
-   array;
+   let number = [];
+   number.push($("input#inputNumber").val());
 
-   let realNumbers = 0
-   array.forEach(function(element) {
-     realNumbers += parseInt(element);
+   let array = number.map(function(item){
+     return parseInt(item);
    });
-  realNumbers;
 
-// console.log(number+1)
-console.log(array)
-console.log(realNumbers)
+   let newArray = []
+   array.forEach(function(number) {
+    while (number > -1) {
+      newArray.push(number);
+      number --;
+    }
+    return newArray;
+   });
 
+   let reverseArray = newArray.reverse();
 
+console.log(reverseArray)
+
+$("#result").text(number);
 
 
 
   });
 });
+
+
+  //  number = parseInt($("input#inputNumber").val());
