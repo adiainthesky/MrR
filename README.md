@@ -1,10 +1,10 @@
-# ---Mr Roboger's Neighborhood---
-#### ---Mr Roboger's Neighborhood translator---, ---10/1/20---"
+# Mr Roboger's Neighborhood
+#### Mr Roboger's Neighborhood translator, 10/1/20"
 
 #### By **Adelaide Nalley**
 
 ## Description
-This website offers ....
+This website offers a tool to transform a number into a range of numbers as well as logically consistent Beeps, Boops, and a suprise saying from Mr Rogers. 
 
 Specs:
 1. Returns a range of numbers from 0 to the inputted number
@@ -26,9 +26,9 @@ Specs:
   
 ## Setup/Installation
 
-* Follow link to ...
-* ----Take Quiz----
-* ----Click submit button to get results---
+* Follow link to https://adiainthesky.github.io/MrR/
+* Enter a number you would like transformed. 
+* Click submit button to get results
 
 ## Known Bugs
 
